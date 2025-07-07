@@ -1,0 +1,10 @@
+task: Generate unit tests using Google Test
+language: C++
+rules:
+  - Do not duplicate test cases
+  - Include necessary headers
+  - Use proper test naming conventions
+  - Create meaningful test cases for all functions
+output_format: |
+  Provide only valid C++ code using Google Test framework.
+  Start with #include <gtest/gtest.h>
